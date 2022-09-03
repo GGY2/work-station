@@ -1,0 +1,41 @@
+div.demonstration{
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding: 150px 0;
+    background-color: #103152;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+div.demonstration img{
+    width: 500px;
+    height: auto;
+    outline: 20px solid #fafafa;
+    border-radius: 0px;
+    object-fit: fill;
+    padding: 0;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+div.demonstration img:hover{
+    transition: all .4s;
+    transform: rotate(2deg);
+    /* transform: scale(1.01); */
+}
+
+div.demonstration h2{
+    color: #ffff;
+}
+
+div.demonstration p{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 15px;
+}

@@ -1,0 +1,22 @@
+.card-img, .card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+    border: none!important;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.card:hover span.add svg{
+    fill: dodgerblue;
+}

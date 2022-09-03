@@ -1,0 +1,49 @@
+div.header{
+    width: 100%;
+    height: 80px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    z-index: 999;
+}
+
+div.header img.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+div.header svg{
+    width: 25px;
+    height: 25px;
+}
+
+.favorites:hover{
+    cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.logo {
+    animation: App-logo-spin infinite 20s linear;
+}
+}
+
+@keyframes App-logo-spin {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
