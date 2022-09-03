@@ -13,20 +13,19 @@ div.demonstration{
 div.demonstration img{
     width: 500px;
     height: auto;
-    outline: 20px solid #fafafa;
     border-radius: 0px;
     object-fit: fill;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     display: block;
     overflow: hidden;
     transition: all .4s;
+    border: 10px solid #fafafa;
 }
 
 div.demonstration img:hover{
     transition: all .4s;
-    transform: rotate(2deg);
-    /* transform: scale(1.01); */
+    transform: rotate(1deg);
 }
 
 div.demonstration h2{

@@ -12,7 +12,7 @@ const About = () => {
                 </div>
             </Link>  
             <div className="demonstration">
-                    <img src='./images/team.jpg' alt="tranquil" />
+                    <img src='./images/office.jpg' alt="office" />
                     <div style={{width: '400px'}}>
                     <h2 style={{fontWeight: '700', textAlign: 'left'}}>About us</h2>
                     <p style={{textAlign: 'left'}}>We aim to innovate and listen to our customers to provide
